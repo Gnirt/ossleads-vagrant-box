@@ -1,9 +1,15 @@
 # To create your box simply launch
+clone the project in your desired directory
+<pre>git clone https://github.com/Gnirt/ossleads-vagrant-box.git</pre>
+<pre>cd ossleads-vagrant-box</pre>
+You must have installed vagrant and virtual box
+<pre>gem install librarian-chef</pre>
+<pre>librarian-chef install</pre>
 <pre>vagrant up</pre>
 It might take some time for the box to create
 
 ### If it fails type:
-<pre>vagrant reload --provision<pre>
+<pre>vagrant reload --provision</pre>
 
 #Launch rails server
 <pre>vagrant ssh</pre>
