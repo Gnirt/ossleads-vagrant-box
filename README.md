@@ -3,7 +3,7 @@
 clone the project in your desired directory
 <pre>git clone https://github.com/Gnirt/ossleads-vagrant-box.git</pre>
 <pre>cd ossleads-vagrant-box</pre>
-You must have installed vagrant and virtual box
+You must have installed (vagrant)[http://docs.vagrantup.com/v2/installation/] and (virtual box)[https://www.virtualbox.org/wiki/Downloads]
 <pre>gem install librarian-chef</pre>
 <pre>librarian-chef install</pre>
 <pre>mkdir project</pre>
@@ -21,6 +21,6 @@ After that you can put you root app in the folder project/
 <pre>rails s</pre>
 
 # Todo
-Add how librarian, chef, and vagrant work
+Add how (chef)[https://github.com/applicationsonline/librarian-chef], and vagrant work
 
 Philippe
