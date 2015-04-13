@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt-get update
+sudo apt-get -y install qt5-default libqt5webkit5-dev
 cd /vagrant
 /home/vagrant/.rbenv/bin/rbenv init
 source ~/.profile
