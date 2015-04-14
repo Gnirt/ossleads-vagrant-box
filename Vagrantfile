@@ -7,7 +7,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/trusty64"
- 
+
   config.ssh.forward_agent = true
   config.vm.network "private_network", ip: "192.168.33.10"
   config.vm.network :forwarded_port, guest: 3000, host: 3000
@@ -34,10 +34,10 @@ Vagrant.configure("2") do |config|
     chef.add_recipe 'git'
     chef.add_recipe 'redis'
     chef.add_recipe 'vim'
-    chef.add_recipe "locale" 
+    chef.add_recipe "locale"
     # Image handling
     chef.add_recipe "imagemagick"
-    chef.add_recipe "imagemagick::devel" 
+    chef.add_recipe "imagemagick::devel"
     chef.json = {
       :rbenv   => {
         :user_installs => [
